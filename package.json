@@ -1,0 +1,28 @@
+{
+  "name": "kn2auth",
+  "description": "Kmrweb.net 2 factor authorization module",
+  "keywords": [
+    "kn2auth",
+    "authorization",
+    "google",
+    "2 factor"
+  ],
+  "homepage": "http://www.kmrweb.net/index.html",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": {
+    "name": "michihiro kimura",
+    "email": "kimura@kmrweb.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.org/m0kimura/kn2auth.git"
+  },
+  "dependencies": {
+    "speakeasy": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=0.5.2"
+  },
+  "main": "./kn2auth.js"
+}
